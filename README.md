@@ -11,4 +11,6 @@ LLMs with AWS Bedrock Knowledge Base, RAG (Retrieval Augmented Generation), Lamb
 - IAM role
 - RetrieveAndGenerate API
 - Model arn
+#### 4. AWS API Gateway  
+- Create REST API
   
