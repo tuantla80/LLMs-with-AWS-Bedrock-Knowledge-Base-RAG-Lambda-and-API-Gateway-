@@ -13,4 +13,5 @@ LLMs with AWS Bedrock Knowledge Base, RAG (Retrieval Augmented Generation), Lamb
 - Model arn
 #### 4. AWS API Gateway  
 - Create REST API
+#### 4. Integrate the whole system with AWS Lambda and API Gateway
   
