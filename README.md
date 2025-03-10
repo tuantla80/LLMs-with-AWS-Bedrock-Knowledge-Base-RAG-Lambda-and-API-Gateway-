@@ -7,3 +7,8 @@ LLMs with AWS Bedrock Knowledge Base, RAG (Retrieval Augmented Generation), Lamb
 - Chunking
 - Embedding Model
 - Vector Store database
+#### 3. AWS Lambda function  
+- IAM role
+- RetrieveAndGenerate API
+- Model arn
+  
