@@ -5,11 +5,10 @@ LLMs with AWS Bedrock Knowledge Base, RAG (Retrieval Augmented Generation), Lamb
 - Data source
 - Transform data: Chunking
 - Create vector embeddings: Ex. Titan text, Cohere models
-- Vector Store database
-  - Amazon OpenSearch (recommended by AWS)
-  - Amazon Aurora Postgresql
-  - Pinecone
-  - Redis Enterprise Cloud     
+- Vector Store databases
+  - Amazon OpenSearch serverless (recommended by AWS)
+  - Amazon Aurora PostgreSQL Serverless
+  - Amazon Neptune Analytics (GraphRAG) 
 #### 3. AWS Lambda function  
 - IAM role
 - RetrieveAndGenerate API
