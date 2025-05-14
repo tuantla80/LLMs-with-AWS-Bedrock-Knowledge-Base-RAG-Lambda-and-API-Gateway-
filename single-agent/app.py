@@ -9,8 +9,8 @@ import uuid
 import yaml
 
 # Get config from environment variables
-agent_id="NMUDPMK88C" # Hotel_Room_Booking_Agent agent ID
-agent_alias_id="T15D8BAXDA" # Hotel_Room_Booking_Agent Alis and Version parts: dev-2
+agent_id="YOUR_AGENT_ID" 
+agent_alias_id="YOUR_AGENT_ALIAS_ID"
 ui_title="Booking Agent"
 ui_icon="BEDROCK_AGENT_TEST_UI_ICON"
 
