@@ -10,11 +10,10 @@ def invoke_agent(agent_id, agent_alias_id, session_id, prompt):
         client = boto3.session.Session().client(
             service_name="bedrock-agent-runtime",
             region_name='us-east-2')
-        # # arn:aws:bedrock:us-east-2:376572741427:agent/NMUDPMK88C
-        # See https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/bedrock-agent-runtime/client/invoke_agent.html
+        
         response = client.invoke_agent(
-            agentId="NMUDPMK88C", # Hotel_Room_Booking_Agent agent ID
-            agentAliasId="T15D8BAXDA", # Hotel_Room_Booking_Agent Alis and Version parts: dev-2
+            agentId="YOUR_AGENT_ID", 
+            agentAliasId="YOUR_AGENT_ALIAS_ID", 
             enableTrace=True,
             sessionId=session_id,
             inputText=prompt
